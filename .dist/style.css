@@ -1,0 +1,48 @@
+/* group selector */
+table,tr,th,td{
+        border:1px solid black;
+        /* border-collapse: collapse; */
+    }
+p{
+    background-color: rgb(211, 235, 245);
+}
+#table{
+    background-color: aqua;
+}
+.jj{
+    background-color: rgb(182, 245, 10);
+}
+
+/* universal selector changing text color */
+/* *{
+    color: tomato;
+    font-size:large;
+    font-family: serif;
+} */
+
+h1{ 
+    color: darkorange;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-decoration: wavy;
+    text-emphasis: filled;
+    text-shadow: 3px 3px salmon;
+}
+
+/* background image setup */
+/* body{
+    background-image: url("file:///C:/Users/ashva/Downloads/download.jpeg.webp");
+    background-size : cover;
+} */
+
+a{
+    text-decoration: none;
+}
+a.hover{
+    text-decoration: underline;
+    color: chartreuse;
+}
+
+
+
